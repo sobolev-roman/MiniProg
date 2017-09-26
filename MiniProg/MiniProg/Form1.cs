@@ -12,6 +12,9 @@ namespace MiniProg
 {
     public partial class MainForm : Form
     {
+
+        int count = 0;
+
         public MainForm()
         {
             InitializeComponent();
@@ -40,6 +43,42 @@ namespace MiniProg
 
         private void менюToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            count++;
+            label1.Text = Convert.ToString(count);
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            count--;
+            label1.Text = Convert.ToString(count);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            count = 0;
+            label1.Text = Convert.ToString(count);
 
         }
     }
