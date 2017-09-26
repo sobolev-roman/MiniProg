@@ -81,5 +81,10 @@ namespace MiniProg
             label1.Text = Convert.ToString(count);
 
         }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
